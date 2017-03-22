@@ -207,56 +207,78 @@ section .banner {
     border: 4px solid transparent;
     border-radius: 4px;
 }
-/*Login*/
-#formlogin{
+/*registro*/
+label{
+	margin-bottom: 11px;
+}
+#formregistro{
 	position: relative;
 	margin-left: 20px;
+	top: 124px;
 }
-#login{
+#registro{
 	font-family: "Wonka";
     position: relative;
     top: 119px;
     margin-left: 20px;
 }
-#caixadeemaillogin{
-	width: 75%;
-    position: relative;
-    top: 134px;
-    margin-left: 20px;
-    z-index: 30;
+#email{
+	z-index: 20;
 }
-#caixadesenhalogin{
+
+#caixadesenharegistro{
 	width: 75%;
 	position: relative;
-	top: 154px;
+	top: 124px;
     margin-left: 20px;
     z-index: 30;
 }
-#entrarlogin{
+#entrarregistro{
 	width: 25%;
 	position: relative;
     margin-top: 188px;
     margin-left: 20px;
 }
-#registrarlogin{
+#registrarregistro{
 	width: 25%;
 	position: relative;
     margin-top: 188px;
     margin-left: 156px;
 }
-#cobradegelatinalogin{ /*Banner Login*/
+#senhaconfirma{
+	width: 100%;
+    position: relative;
+    top: 3px;
+    margin-left: 1px;
+    z-index: 30;
+}
+#submitregister{
+	position: relative;
+    top: 119px;
+    margin-left: 20px
+
+}
+#ursodegelatinaregistro{ /*Banner Registro*/
 	width: 69%;
     position: relative;
-    margin-top: 135px;
+    margin-top: -1px;
     margin-left: 109px;
 }
+#credictcardregistro{
+	position: relative;
+    top: 112px;
+    left: 2px;
+}
+
+
+
 /*footer*/
 footer{
 	width: 100%;
 	height: 200px;
 	background-color:#000; 	
 	position: absolute;
-	margin-top: 922px;
+	margin-top: 549px;
 }
 #barradecontato{
 	box-sizing: border-box;

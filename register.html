@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Candy Land</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/registro.css">	
+	</head>
+
+
+	<body>
+		
+		<header> 
+			<div class="container">
+				<img src="img/candyland1.jpg" id="terradodocelogo">
+				<img src="img/bengalas.png" id="bengalas">
+				<img src="img/bengalas.png" id="bengalas2">
+
+			</div>
+			<div class="container">
+				
+				<div class="row">
+					
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="trainee.html">Home</a></li>
+							<li><a href="catalogo.html">Catalog</a></li>
+							<li><a href="carrinho.html">Buyings</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li class="search">
+								<div class="input-group">
+							      <input type="search" placeholder="Search" id="input-search">
+							      <span class="input-group-btn">
+							        <button type="button"><i class="fa fa-search"></i></button>
+							      </span>
+							    </div><!-- /input-group -->
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</header>
+		<!--Adicionar formulário para receber número de cartão de crédito, data de validade e código de segurança-->
+		<section>		
+				<div class="col-md-6">
+					<form method="POST" action="form.php">
+							<h2 id="registro">RegiSter :
+							</h2>
+						<div id="formregistro">
+							<div class="form-group" >
+								<label for="email">E-mail</label>
+								<input type="email" name="email" id="email" class="form-control" placeholder="candy@land.com" required tabindex="2" autofocus>
+							</div>
+							
+							<div id="caixadesenharegistro form-group">
+								<label for="senha">Password</label>
+								<input type="password" name="senha" id="senha" class="form-control" required>
+								<label for="senhaconfirma">Confirm Password</label>
+								<input type="password" name="senhaconfirma" id="senhaconfirma" class="form-control" required>
+							</div>
+							<div class="form-group">
+							
+								<label for="agree">I agree with terms of use</label>
+			
+								<input type="checkbox" name="agree" id="agree" required checked>
+							</div>
+						</div>
+						<div class="input-group" id="credictcardregistro">
+						      <div class="input-group-btn">
+						        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Credict Card <span class="caret"></span></button>
+						        <ul class="dropdown-menu">
+						        <!--INSERIR SISTEMA DE ARMAZENAMENTO DE QUE TIPO DE CARTÃO DE CRÉDITO ELE ESTÁ ESCOLHENDO-->
+						          <li><a href="#">MasterCard</a></li>
+						          <li><a href="#">Visa</a></li>
+						          <li><a href="#">American Express</a></li>
+						          <li><a href="#">Sodexo</a></li>
+						          <li><a href="#">Diners</a></li>
+						          <li><a href="#">Hypercard</a></li>
+						        </ul>
+						      </div><!-- /btn-group -->
+						      <input type="text" class="form-control" placeholder= "Numbers only" aria-label="...">
+						</div><!-- /input-group -->
+						<button type="submit" class="btn btn-info" id="submitregister"> Submit </button>		
+				</div>
+				<div class="col-md-6" id="bannerregistro">
+						<img src="img/gummybearbolado2.jpg" id="ursodegelatinaregistro" >
+
+				</div>		
+		</section>
+		
+
+
+	</body>
+
+	<footer>
+
+		<div class="row" id="barradecontato">
+			<div class="row" id="barradecontato1">
+				<h1 class="text-center">ConTacT</h1>
+			</div>
+		</div>
+
+			<div class="col-md-8" id="info">
+					<div class="container" id="containerzao">
+								<h3>. Fisical Address:	Candy Avenue 107; 71</h3>
+								<h3>. Email:	peganopirulito@gmail.com</h3>
+								<h3>. Telefone:	(21)2569-6969</h3>
+					</div>
+					<img src="img/lsd.jpg" id="lsd2">
+			</div>
+			<div class="col-md-4" >
+				<!--PASSAR O FOOTER TODO PARA INGLÊS-->
+				<div class="container" id="take">
+				<h6>A Candy Land CIA é uma marca registrada e não deve ter seus</h6>
+				<h6>produtos ou serviços copiados por terceiros, sob pena da vara judicial</h6>
+				<h6> do DOCE.:.</h6>
+				<h6>Copyrights@2017</h6>
+
+				<h6 id="willy">ceo: Willy Wonka</h6>
+				</div>
+
+			</div>
+
+	</footer>
+
+
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/efeitos.js"></script>
+</html>

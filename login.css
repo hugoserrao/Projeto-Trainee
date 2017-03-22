@@ -124,7 +124,6 @@ header #logotipo {
 #menu li.search .input-group {
 	top: 8px;
 }
-
 #terradodocelogo{
 	z-index: 4;
 	width: 40%;
@@ -207,7 +206,7 @@ section .banner {
     border: 4px solid transparent;
     border-radius: 4px;
 }
-/*Login*/
+/*login*/
 #formlogin{
 	position: relative;
 	margin-left: 20px;
@@ -244,10 +243,11 @@ section .banner {
     margin-top: 188px;
     margin-left: 156px;
 }
-#cobradegelatinalogin{ /*Banner Login*/
+
+#cobradegelatinalogin{
 	width: 69%;
     position: relative;
-    margin-top: 135px;
+    margin-top: 138px;
     margin-left: 109px;
 }
 /*footer*/
@@ -256,7 +256,7 @@ footer{
 	height: 200px;
 	background-color:#000; 	
 	position: absolute;
-	margin-top: 922px;
+	margin-top: 481px;
 }
 #barradecontato{
 	box-sizing: border-box;
