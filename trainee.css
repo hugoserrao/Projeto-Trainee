@@ -82,11 +82,7 @@ header #logotipo {
 	top: -129px;
 	left: 89px;
 }
-#menu li.search {
-	width: 182px;
-	transition-timing-function: cubic-bezier(1,-.91,.91,1);
-	transition-duration: 1s;
-}
+
 #menu li.search.ativo {
 	width: 300px;
 }
@@ -305,4 +301,81 @@ footer{
 	font-family: 'Wonka';
 	font-weight: bold;
 
+}
+/*Cart*/
+#cart-products {
+	margin-top: 20px;
+}
+#cart-products td {
+	vertical-align: middle;
+	color: #666;
+}
+#cart-products p {
+	margin: 0;
+	font-size: 12px;
+	color: #666;
+}
+#cart-products .btn {
+	border: none;
+	background: none;
+	outline: 0;
+}
+#cart-products .btn i {
+	font-size: 32px;
+}
+#cart-products .btn i.fa-close {
+	font-size: 14px;
+}
+#cart-products .form-control {
+	text-align: center;
+	border: none;
+	background: none;
+	box-shadow: none;
+	outline: 0;
+}
+#cart-products th {
+	font-weight: 100;
+}
+#cart-products img {
+	max-width: 80px;
+	max-height: 80px;
+}
+.box-outline-grey {
+	border: #CCC 1px solid;
+	height: 160px;
+	text-align: center;
+}
+#calculo-de-frete .btn {
+	background-color: #ccc;
+	height: 42px;
+	border-radius: 0;
+}
+#calculo-de-frete .form-control {
+	height: 42px;
+	border-radius: 0;
+}
+.box-cart-totais {
+	background-color: #eee;
+	height: 160px;
+	padding: 10px;
+}
+.box-cart-totais .table>tbody>tr>td, 
+.box-cart-totais .table>tbody>tr>th, 
+.box-cart-totais .table>tfoot>tr>td, 
+.box-cart-totais .table>tfoot>tr>th, 
+.box-cart-totais .table>thead>tr>td, 
+.box-cart-totais .table>thead>tr>th {
+	border: none;
+	padding: 14px;
+}
+.text-bold {
+	font-weight: bold;
+}
+.btn-roxo {
+	background-color: #FF1493;
+	height: 42px;
+	width: 164px;
+	font-weight: bold;
+	color: #fff!important;
+	border-radius: 0;
 }
